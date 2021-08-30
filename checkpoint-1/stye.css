@@ -129,12 +129,17 @@ table {
 }
 body {
   line-height: 1.5;
-  padding: 0 400px;
 }
 .Home {
   background-color: rgb(7, 22, 76);
   text-align: center;
+  padding: 30px;
   /* width: 100%; */
+}
+a {
+  font-size: 25px;
+  color: green;
+  padding: 10px;
 }
 h1 {
   text-align: center;
@@ -152,6 +157,9 @@ h2 {
   text-align: center;
   margin: 32px 0;
 }
+main {
+  margin: 0 400px;
+}
 .box {
   width: 200px;
   height: 200px;
@@ -160,7 +168,7 @@ h2 {
   border: 20px solid rgb(88, 115, 226);
   outline: 5px solid black;
   box-shadow: 0 0 0 30px rgb(144, 254, 169);
-  border-radius: 8px;
+  border-radius: 1px;
 }
 .marker-container {
   text-align: center;

@@ -131,6 +131,17 @@ table {
 .Home {
   background-color: rgb(7, 22, 76);
   text-align: center;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+main {
+  margin: 30px;
+}
+a {
+  font-size: 25px;
+  color: green;
+  padding: 10px;
+  text-decoration: none;
 }
 h1 {
   font-size: 20px;
@@ -154,14 +165,17 @@ img {
   display: inline-block;
 }
 .article-info {
-  width: 50%;
+  /* display: inline-block; */
+  border: 2px solid green;
   display: inline-block;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  vertical-align: top;
+  width: 49%;
 }
 .article-1 {
+  /* margin-left: 5px; */
   display: inline-block;
   width: 49%;
+  border: 2px solid grey;
 }
 .inline {
   display: inline-block;
