@@ -166,7 +166,7 @@ img {
 }
 .article-info {
   /* display: inline-block; */
-  border: 2px solid green;
+
   display: inline-block;
   vertical-align: top;
   width: 49%;
@@ -175,7 +175,6 @@ img {
   /* margin-left: 5px; */
   display: inline-block;
   width: 49%;
-  border: 2px solid grey;
 }
 .inline {
   display: inline-block;
