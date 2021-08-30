@@ -127,7 +127,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/*    custom styles */
+
 .Home {
   background-color: rgb(7, 22, 76);
   text-align: center;
@@ -144,7 +144,7 @@ a {
   text-decoration: none;
 }
 h1 {
-  font-size: 20px;
+  font-size: 30px;
 }
 h2 {
   font-size: 20px;
@@ -161,29 +161,33 @@ img {
 .para {
   display: inline-block;
 }
-.featured-article {
+.featured-article, .inline {
+  
+  width: 1400px;
+  
+  margin: auto;
   display: inline-block;
 }
 .article-info {
-  /* display: inline-block; */
-
+  
   display: inline-block;
+  margin-bottom: 100px;
+  width: 650px;
   vertical-align: top;
-  width: 49%;
+  line-height: 1.5;
 }
-.article-1 {
-  /* margin-left: 5px; */
+.article-img {
+  width: 650px;
   display: inline-block;
-  width: 49%;
 }
 .inline {
   display: inline-block;
 }
 .article-2 {
-  width: 50%;
+  width: 650px;
   display: inline-block;
 }
 .article-3 {
-  width: 49%;
+  width: 650px;
   display: inline-block;
 }
